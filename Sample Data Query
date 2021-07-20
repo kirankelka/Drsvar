@@ -1,0 +1,56 @@
+Below are the sample API queries that can be used for importing booking data & we see two such supporting queries BookingSlot and BookingSlotAddOrUpdate. Please let us know what would be best fit for Certify as we see both of them have similar required data points after performing a test import.  
+
+Comments are included within '()' for the fields; please remove them while testing.  
+
+bookingSlot(
+{
+    id: ID(Is the ID field auto generated or not)
+    locationId: 0
+    date: 07-02-2021 07:00 (Booking START date and time)
+    dayCount: 0
+    flags: 0
+    status: 0
+    bookingDateStatus: 0
+    bookingDateId: 0
+    serviceIds: 0
+    loadBookingCount: 0
+    minAvailableSlot: 0
+    after: 07-02-2021 07:10(Booking END date and time)
+    afterDateTime: 07-02-2021 07:10 (Booking END date and time)
+    before: 07-02-2021 07:00(Booking Start date and time)
+  },
+  {
+    id: ID(Is the ID field auto generated or not)
+    locationId: 0
+    date: 07-02-2021 7:10 (Booking START date and time)
+    dayCount: 0
+    flags: 0
+    status: 0
+    bookingDateStatus: 0
+    bookingDateId: 0
+    serviceIds: 0
+    loadBookingCount: 0
+    minAvailableSlot: 0
+    after: 07-02-2021 07:10 (Booking END date and time)
+    afterDateTime: 07-02-2021 07:20 (Booking END date and time)
+    before: 07-02-2021 07:10 (Booking Start date and time)
+})
+
+BookingSlotAddOrUpdate ({
+    id: ID(Is this field values are auto generated or not)
+    serviceIds: 0
+    startTime: '07-02-2021 07:00' (Booking START date and time)
+    endTime: '07-02-2021 07:10' (Booking END date and time)
+    flags: 0
+    status: 0
+    limit: 0
+    },
+    {
+    id: ID(Is this field values are auto generated or not)
+    serviceIds: 0
+    startTime: '07-02-2021 07:10' (Booking START date and time)
+    endTime: '07-02-2021 07:20' (Booking END date and time)
+    flags: 0
+    status: 0
+    limit: 0
+	})
