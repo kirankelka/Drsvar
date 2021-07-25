@@ -1,0 +1,15 @@
+type BookingAdd {
+    id: BK1234
+    locationId: loca1
+    date: #2021-07-07T08:20:00Z
+    flags: '0.0'
+    status: 0
+    bookingDateStatus: bookingDate
+    bookingDateId: bookingDate
+    serviceIds: service
+    loadBookingCount: load
+    minAvailableSlot: getAvailableServiceSlots
+    after: #2021-07-07T08:30:00Z
+    afterDateTime: #2021-07-07T08:30:00Z
+    before: #2021-07-07T08:20:00Z
+}
