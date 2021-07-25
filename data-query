@@ -2,8 +2,8 @@ type BookingAdd {
     id: BK1234
     locationId: loca1
     date: #2021-07-07T08:20:00Z
-    flags: '0.0'
-    status: 0
+    flags: 0.0
+    status: CONFIRMED
     bookingDateStatus: bookingDate
     bookingDateId: bookingDate
     serviceIds: service
